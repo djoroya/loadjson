@@ -14,7 +14,7 @@ setup(
         "Source Code": "https://github.com/djoroya/loadjson",
         "Bug Tracker": "https://github.com/djoroya/loadjson/issues",
     },
-    install_requires=["numpy","pandas"],
+    install_requires=["numpy","pandas"], 
     python_requires='>=3.6',  # Versión mínima de Python requerida
     classifiers=[  # Clasificadores que ayudan a otros desarrolladores a encontrar tu proyecto
         "Programming Language :: Python :: 3",
