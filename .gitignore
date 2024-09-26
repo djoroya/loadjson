@@ -1,3 +1,6 @@
 # python packages
 __pycache__/
 *.pyc
+build/
+dist/
+.conda/

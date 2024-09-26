@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+loadsavejson/__init__.py
+loadsavejson/dicttopandas.py
+loadsavejson/listtonumpy.py
+loadsavejson/loadjson.py
+loadsavejson/loadjson_plain.py
+loadsavejson/numpytolist.py
+loadsavejson/pandastodict.py
+loadsavejson/savejson.py
+loadsavejson.egg-info/PKG-INFO
+loadsavejson.egg-info/SOURCES.txt
+loadsavejson.egg-info/dependency_links.txt
+loadsavejson.egg-info/requires.txt
+loadsavejson.egg-info/top_level.txt
