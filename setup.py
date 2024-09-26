@@ -10,14 +10,16 @@ setup(
     author_email="djoroya@gmail.com",
     url="https://github.com/djoroya/loadjson",
     packages=find_packages(),
-    proyect_urls={
+    project_urls={
         "Source Code": "https://github.com/djoroya/loadjson",
         "Bug Tracker": "https://github.com/djoroya/loadjson/issues",
     },
-    install_requires=[
-        # Dependencias de la librería
-        "numpy",
-        "pandas",
+    install_requires=["numpy","pandas"],
+    python_requires='>=3.6',  # Versión mínima de Python requerida
+    classifiers=[  # Clasificadores que ayudan a otros desarrolladores a encontrar tu proyecto
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",  # Tipo de licencia
+        "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    include_package_data=True
 )
